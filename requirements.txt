@@ -1,4 +1,14 @@
 streamlit==1.38.0
 pandas==2.1.4
 plotly==5.23.0
-pycaret[full]==3.3.2
+
+# PyCaret – baza (bez [full], bo ściąga sktime/prophet itd.)
+pycaret==3.3.0
+
+# Sztywne piny zgodne z PyCaret 3.3.x i Py 3.11
+numpy==1.26.4
+scikit-learn==1.3.2
+scipy==1.10.1
+numba==0.58.1
+llvmlite==0.41.1
+joblib==1.3.2
