@@ -1,5 +1,4 @@
 streamlit==1.38.0
 pandas==2.1.4
 pycaret==3.3.0
-scikit-learn==1.4.2   # albo usuń całkowicie tę linię, bo pycaret sam dobierze kompatybilną wersję
 plotly==5.22.0
